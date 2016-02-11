@@ -500,6 +500,7 @@ fieldset iframe {
   float:left;
   text-align:center;
 }
+/*
 .bowl {
   background-image:url(../images/bowl.svg);
   background-position:center;
@@ -510,6 +511,7 @@ fieldset iframe {
 .bowl h5 {
   padding-top:6rem;
 }
+*/
 .center {
   padding-top:5rem;
   text-align:center;
@@ -536,6 +538,18 @@ fieldset iframe {
 .button {
   background-color:#B71234;
   color:white;
+}
+#markel {
+  background-color:#B71234;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-image:url(../images/markel.svg);
+}
+.slide>div {
+  background-size:50% 50%;
+  height:30rem;
+  padding:1rem;
+  width:100%;
 }
 
 /* Larger than mobile */
