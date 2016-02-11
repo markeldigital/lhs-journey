@@ -107,9 +107,11 @@ fieldset iframe {
   color:white;
   width:100%;
 }
-.slide iframe {
+.slide>div {
+  background-size:50% 50%;
+  height:25rem;
   margin:0 15%;
-  height:35rem;
+  padding:1rem;
   width:70%;
 }
 .slide .video {
@@ -122,11 +124,18 @@ fieldset iframe {
   background-image:url(images/bowl.svg);
   background-position:center;
   background-repeat:no-repeat;
+  height:36rem;
   padding:0 27%;
-  height:34rem;
+  text-align:center;
 }
 .bowl h5 {
   padding-top:6rem;
+}
+#markel {
+  background-color:#B71234;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-image:url(images/markel.svg)
 }
 @media (min-width: 750px) {
   fieldset {
@@ -185,16 +194,14 @@ fieldset iframe {
 <div class="carousel">
   <div class="container">
     <div class="row">
-      <div class="twelve columns">
+      <div class="offset-by-one ten columns">
         <h3>You Take</h3>
       </div>
     </div>
     <div class="row">
-      <div class="twelve columns">
+      <div class="offset-by-one ten columns">
         <div class="slide">
-          <div class="video">
-            <iframe src="https://www.youtube.com/embed/YPtpINs7NYs" frameborder="0" allowfullscreen>
-            </iframe>
+          <div id="markel">
           </div>
           <h3>Markel</h3>
           <p>One man’s vision in 1930 led to America’s first insurance solution for jitney buses when everyone said it couldn’t be done successfully</p>
@@ -302,7 +309,7 @@ fieldset iframe {
     <div class="offset-by-one columns ten">
       <div class="bowl">
         <h5>Presenting our recipe, developed for and with you. For #lawreinvented: we invite you to enjoy it as the first of many innovations from LHS in 2016. It’s all yours...</h5>
-        <p><a href="">CTA</a></p>
+        <p><a href="detail.html" class="button">CTA</a></p>
       </div>
     </div>
   </div>
