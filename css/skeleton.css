@@ -400,6 +400,9 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
+body {
+  color:#616365;
+}
 
 
 .hero {
@@ -485,8 +488,6 @@ fieldset iframe {
   width:100%;
 }
 .carousel {
-  background-color: #803092;
-  color:white;
   width:100%;
 }
 .slide iframe {
