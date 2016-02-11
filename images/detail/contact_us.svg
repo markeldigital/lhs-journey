@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#AC57A1;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,0.3;}
+	.st2{fill:none;stroke:#9C9B9B;stroke-miterlimit:10;}
+	.st3{fill:#803193;}
+	.st4{fill:#7AB800;}
+	.st5{fill:#009AA6;}
+	.st6{fill:none;stroke:#66C2CA;stroke-miterlimit:10;}
+	.st7{fill:#66C2CA;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:none;stroke:#AFD466;stroke-miterlimit:10;}
+	.st11{fill:#AFD466;}
+	.st12{fill:none;stroke:#B383BE;stroke-miterlimit:10;}
+	.st13{fill:#B383BE;}
+	.st14{fill:#616365;}
+	.st15{fill:#B71234;}
+	.st16{fill:#F4F4F4;}
+	.st17{fill:none;stroke:#FFFFFF;stroke-width:4;}
+	.st18{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st19{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+	.st20{clip-path:url(#SVGID_6_);fill:none;stroke:#FFFFFF;}
+	.st21{clip-path:url(#SVGID_8_);fill:none;stroke:#FFFFFF;}
+	.st22{clip-path:url(#SVGID_10_);fill:none;stroke:#FFFFFF;}
+	.st23{clip-path:url(#SVGID_10_);fill:#FFFFFF;}
+	.st24{clip-path:url(#SVGID_12_);}
+	.st25{fill:none;stroke:#803094;stroke-width:2;stroke-miterlimit:10;}
+	.st26{fill:#803094;}
+	.st27{fill:none;stroke:#803094;stroke-miterlimit:10;}
+	.st28{fill:#66666A;}
+	.st29{fill:#BC2036;}
+	.st30{fill:#549800;}
+</style>
+<g id="Layer_2" class="st0">
+	<rect x="20.1" y="20.2" class="st1" width="159.7" height="159.7"/>
+	<polygon class="st1" points="0,100.1 99.9,0.3 199.8,100 99.9,199.8 	"/>
+	<line class="st1" x1="199.8" y1="0.2" x2="0" y2="200"/>
+	<line class="st1" x1="199.8" y1="200" x2="0" y2="0.3"/>
+	<line class="st1" x1="0" y1="100.1" x2="199.8" y2="100.1"/>
+	<line class="st1" x1="99.9" y1="0" x2="99.9" y2="200"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<path class="st25" d="M107.6,100.5l15.9,15.9l-15.9,15.9 M75.8,116.4h45.2 M91.7,92.5L75.8,76.6l15.9-15.9 M123.6,76.6H78.4
+			 M65.5,176.6L94,148.2h5.7h39.8l28.5-28.4V68.6l-28.5-28.4H59.8L31.4,68.6v51.2l28.5,28.4"/>
+	</g>
+</g>
+</svg>
