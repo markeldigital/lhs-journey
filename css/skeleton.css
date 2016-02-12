@@ -538,14 +538,22 @@ fieldset iframe {
   line-height:2rem;
   text-align:left;
 }
+.pull-quote p {
+  margin-top:1.5rem;
+}
 .pull-quote img {
   width:auto;
 }
 .pull-quote {
   position:relative;
   text-align:left;
-  top:8rem;
-  padding-left:2rem;
+  top:11rem;
+  margin-bottom:18rem;
+  padding-top:2rem;
+  /*
+  padding-left:4rem;
+  */
+  text-align:center;
 }
 .container .button {
   text-decoration: none;
