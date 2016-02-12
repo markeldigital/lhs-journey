@@ -523,7 +523,7 @@ fieldset iframe {
   background-color:#009aa6!important;
 }
 .centre {
-  padding:2rem 5rem 0;
+  padding:2rem 0 0;
   margin:0;
   text-align:center;
 }
@@ -626,6 +626,10 @@ footer>div {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  .centre {
+    padding:2rem 5rem 0;
+    margin:0;
+  }
   #markel {
     background-size:20%;
     height:30rem;
@@ -684,6 +688,9 @@ footer>div {
   font-style:   normal;
   font-weight:  400;
 
+}
+#ferfuksakes {
+  margin-bottom:3rem;
 }
 
 body {
