@@ -437,7 +437,7 @@ h3 {
   color: #009aa6;
   text-align:right;
 }
-nav {
+header nav {
   background-color: #803092;
   margin:0;
   padding:10px 0;
@@ -538,11 +538,11 @@ fieldset iframe {
   top:8rem;
   padding-left:2rem;
 }
-.button {
+.container .button {
   text-decoration: none;
   outline: 0!important;
   cursor: pointer;
-  background: #b71234!important;
+  background: #b71234;
   border:0 none;
   padding-left: 5px;
   padding-right: 5px;
@@ -551,6 +551,10 @@ fieldset iframe {
   border-radius: 0!important;
   color: #fff;
   width:20rem;
+}
+.container .button:hover {
+  background-color:#b71234;
+  color:white;
 }
 #markel {
   background-color:#B71234;
@@ -571,6 +575,25 @@ fieldset iframe {
   float:right;
 }
 .hamburger label {
+  background-color:#662675;
+  padding:20px;
+  height:18px;
+  margin-bottom:0;
+  position:relative;
+  top:0.25rem;
+}
+.hamburger label span:first-child {
+  margin-top:0;
+}
+.hamburger label span {
+  background-color:white;
+  border-radius:1px;
+  border:1px solid white;
+  clear:both;
+  float:left;
+  margin-top:4px;
+  height:1px;
+  width:27px;
 }
 
 #flyout {
@@ -580,24 +603,91 @@ fieldset iframe {
   color:white;
   background-color:#606264;
   display:none;
+  font-size:2rem;
   height:100%;
   position:fixed;
   right:0;
   width:28rem;
   z-index:9999;
 }
+#flyout+div ul {
+  position:relative;
+  top:-48px;
+}
+#flyout+div .small {
+  font-size:1.5rem;
+}
+#flyout+div li {
+  margin:0;
+}
+#flyout+div hr {
+  border:0 none;
+  border-top:2px solid #808183;
+  background-color:#808183;
+  margin:0.75rem 0;
+}
+#flyout+div a {
+  color:white;
+  display:block;
+  text-decoration:none;
+  padding:0.5rem 2rem;
+  width:100%;
+}
+#flyout+div a:hover {
+  background-color:#b71234;
+}
 #flyout:checked+div {
   display:block;
 }
 #flyout+div label {
   background-color:#662675;
-  font-size:30px;
-  height:62px;
+  font-size:32px;
+  line-height:32px;
+  padding:16px 0;
   left:-8rem;
   overflow:hidden;
   position:relative;
+  text-align:center;
   top:1rem;
-  width:62px;
+  width:64px;
+}
+#flyout+div label:hover {
+  background-color:#601774;
+}
+footer {
+  text-align:center;
+}
+footer nav {
+  background-color:#606264;
+  color:white;
+  margin-bottom:3rem;
+  width:100%;
+}
+footer nav li {
+  border-left:1px solid white;
+  margin:1.25rem 0;
+}
+footer nav li:first-child {
+  border-left:0 none;
+}
+footer nav a {
+  color:white;
+  display:block;
+  text-decoration:none;
+  padding:0.1rem 1.25rem;
+}
+footer nav a:hover {
+  color:white;
+  text-decoration:underline;
+}
+footer .copyright {
+  text-align:right;
+  margin:1.35rem 0;
+}
+footer>div {
+  font-size:1.5rem;
+  line-height:2rem;
+  margin-bottom:8rem;
 }
 
 /* Larger than mobile */
