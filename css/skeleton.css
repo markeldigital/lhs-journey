@@ -413,7 +413,7 @@ body {
   background-size:cover;
   color:white;
   height:35rem;
-  padding-top:5rem;
+  padding-top:14rem;
   text-shadow:1px 1px 2px black;
   width:100%;
 }
@@ -441,7 +441,9 @@ nav {
   background-color: #803092;
   margin:0;
   padding:10px 0;
+  position:fixed;
   width:100%;
+  z-index:9998;
 }
 nav li {
   float: left;
@@ -537,8 +539,18 @@ fieldset iframe {
   padding-left:2rem;
 }
 .button {
-  background-color:#B71234;
-  color:white;
+  text-decoration: none;
+  outline: 0!important;
+  cursor: pointer;
+  background: #b71234!important;
+  border:0 none;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  border-radius: 0!important;
+  color: #fff;
+  width:20rem;
 }
 #markel {
   background-color:#B71234;
@@ -551,6 +563,41 @@ fieldset iframe {
   height:30rem;
   padding:1rem;
   width:100%;
+}
+.finale {
+  text-align:center;
+}
+.hamburger {
+  float:right;
+}
+.hamburger label {
+}
+
+#flyout {
+  display:none;
+}
+#flyout+div {
+  color:white;
+  background-color:#606264;
+  display:none;
+  height:100%;
+  position:fixed;
+  right:0;
+  width:28rem;
+  z-index:9999;
+}
+#flyout:checked+div {
+  display:block;
+}
+#flyout+div label {
+  background-color:#662675;
+  font-size:30px;
+  height:62px;
+  left:-8rem;
+  overflow:hidden;
+  position:relative;
+  top:1rem;
+  width:62px;
 }
 
 /* Larger than mobile */
