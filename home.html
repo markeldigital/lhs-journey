@@ -20,6 +20,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick-theme.css"/>
 
 <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,6 +33,50 @@
   background-position:center;
 }
 </style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+$('#ferfuksakes').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+});
+</script>
+
 </head>
 <body>
 
@@ -60,38 +106,33 @@
   </div>
 </div>
 
-<div class="carousel">
-  <div class="container">
-    <div class="row">
-      <div class="offset-by-one ten columns">
-        <h3>You Take</h3>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="offset-by-one ten columns">
+      <h3>You Take</h3>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="offset-by-one ten columns">
-        <div class="slide">
-          <div id="lhs">
-          </div>
-          <div class="caption">
-            <h3>Lewis, Hymanson &amp; Small LLP</h3>
-            <p>2 Award-winning, experienced legal mavericks determined to build a better business for their clients, culminating in a new firm started.</p>
-          </div>
+  <div class="row">
+    <div class="offset-by-one ten columns" id="ferfuksakes">
+      <div>
+        <div id="lhs">
         </div>
 
-        <div class="slide">
-          <div id="abbey">
-          </div>
-          <h3>Abbey Legal</h3>
-          <p>Facing scepticism and professional snobbery, a business boldly creating the UK’s first 24/7 legal helpline service in the 1990’s – still the most successful today.</p>
+        <p class="centre">2 Award-winning, experienced legal mavericks determined to build a better business for their clients, culminating in a new firm started.</p>
+      </div>
+
+      <div>
+        <div id="abbey">
         </div>
 
-        <div class="slide">
-          <div id="markel">
-          </div>
-          <h3>Markel</h3>
-          <p>One man’s vision in 1930 led to America’s first insurance solution for jitney buses when everyone said it couldn’t be done successfully</p>
+        <p class="centre">Facing scepticism and professional snobbery, a business boldly creating the UK’s first 24/7 legal helpline service in the 1990’s – still the most successful today.</p>
+      </div>
+
+      <div>
+        <div id="markel">
         </div>
+        <p class="centre">One man’s vision in 1930 led to America’s first insurance solution for jitney buses when everyone said it couldn’t be done successfully</p>
       </div>
     </div>
   </div>

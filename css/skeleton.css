@@ -495,40 +495,37 @@ fieldset iframe {
   height:100%;
   width:100%;
 }
-.carousel {
-  width:100%;
-}
-.slide {
-  float:left;
-  text-align:center;
-  display:none;
-}
-.slide:first-child {
-  display:block;
-}
-.slide>div {
-  background-size:50% 50%;
-  height:30rem;
-  padding:1rem;
-  width:100%;
-}
 #markel {
   background-color:#B71234;
   background-repeat:no-repeat;
   background-position:center;
   background-image:url(../images/markel.svg);
+  background-size:40%;
+  height:20rem;
 }
 #lhs {
   background-color:#803092;
-  background-repeat:no-repeat;
-  background-position:center;
   background-image:url(../images/lewis_hymanson_small.svg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:80%;
+  height:20rem;
 }
 #abbey {
   background-color:#009aa6;
-  background-repeat:no-repeat;
-  background-position:center;
   background-image:url(../images/abbey_legal_protection.svg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:80%;
+  height:20rem;
+}
+.slick-prev, .slick-next {
+  background-color:#009aa6!important;
+}
+.centre {
+  padding:2rem 5rem 0;
+  margin:0;
+  text-align:center;
 }
 .center {
   padding-top:5rem;
@@ -582,89 +579,6 @@ fieldset iframe {
 .finale {
   text-align:center;
 }
-.hamburger {
-  float:right;
-}
-.hamburger label {
-  background-color:#662675;
-  padding:20px;
-  height:18px;
-  margin-bottom:0;
-  position:relative;
-  top:0.25rem;
-}
-.hamburger label span:first-child {
-  margin-top:0;
-}
-.hamburger label span {
-  background-color:white;
-  border-radius:1px;
-  border:1px solid white;
-  clear:both;
-  float:left;
-  margin-top:4px;
-  height:1px;
-  width:27px;
-}
-
-#flyout {
-  display:none;
-}
-#flyout+div {
-  color:white;
-  background-color:#606264;
-  display:none;
-  font-size:2rem;
-  height:100%;
-  position:fixed;
-  right:0;
-  width:28rem;
-  z-index:9999;
-}
-#flyout+div ul {
-  position:relative;
-  top:-48px;
-}
-#flyout+div .small {
-  font-size:1.5rem;
-}
-#flyout+div li {
-  margin:0;
-}
-#flyout+div hr {
-  border:0 none;
-  border-top:2px solid #808183;
-  background-color:#808183;
-  margin:0.75rem 0;
-}
-#flyout+div a {
-  color:white;
-  display:block;
-  text-decoration:none;
-  padding:0.5rem 2rem;
-  width:100%;
-}
-#flyout+div a:hover {
-  background-color:#b71234;
-}
-#flyout:checked+div {
-  display:block;
-}
-#flyout+div label {
-  background-color:#662675;
-  font-size:32px;
-  line-height:32px;
-  padding:16px 0;
-  left:-8rem;
-  overflow:hidden;
-  position:relative;
-  text-align:center;
-  top:1rem;
-  width:64px;
-}
-#flyout+div label:hover {
-  background-color:#601774;
-}
 footer {
   text-align:center;
 }
@@ -712,6 +626,18 @@ footer>div {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  #markel {
+    background-size:20%;
+    height:30rem;
+  }
+  #lhs {
+    background-size:40%;
+    height:30rem;
+  }
+  #abbey {
+    background-size:40%;
+    height:30rem;
+  }
   fieldset {
     clear:none;
     display:block;
