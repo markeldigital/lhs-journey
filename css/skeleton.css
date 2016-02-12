@@ -492,29 +492,38 @@ fieldset iframe {
 .carousel {
   width:100%;
 }
-.slide iframe {
-  margin:0 15%;
-  height:35rem;
-  width:70%;
-}
-.slide .video {
-}
 .slide {
   float:left;
   text-align:center;
+  display:none;
 }
-/*
-.bowl {
-  background-image:url(../images/bowl.svg);
-  background-position:center;
+.slide:first-child {
+  display:block;
+}
+.slide>div {
+  background-size:50% 50%;
+  height:30rem;
+  padding:1rem;
+  width:100%;
+}
+#markel {
+  background-color:#B71234;
   background-repeat:no-repeat;
-  padding:0 27%;
-  height:34rem;
+  background-position:center;
+  background-image:url(../images/markel.svg);
 }
-.bowl h5 {
-  padding-top:6rem;
+#lhs {
+  background-color:#803092;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-image:url(../images/lewis_hymanson_small.svg);
 }
-*/
+#abbey {
+  background-color:#009aa6;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-image:url(../images/abbey_legal_protection.svg);
+}
 .center {
   padding-top:5rem;
   text-align:center;
@@ -555,18 +564,6 @@ fieldset iframe {
 .container .button:hover {
   background-color:#b71234;
   color:white;
-}
-#markel {
-  background-color:#B71234;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-image:url(../images/markel.svg);
-}
-.slide>div {
-  background-size:50% 50%;
-  height:30rem;
-  padding:1rem;
-  width:100%;
 }
 .finale {
   text-align:center;
