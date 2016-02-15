@@ -463,9 +463,6 @@ fieldset {
   background-color:white;
   width:100%;
 }
-fieldset.left legend {
-  background-color: #803092;
-}
 fieldset h4 {
   text-align:center;
   padding:2rem;
@@ -620,6 +617,15 @@ footer>div {
 }
 .colour {
   color:#803092;
+}
+.purple {
+  background-color:#803193;
+}
+.blue {
+  background-color:#009AA6;
+}
+.green {
+  background-color:#549a00;
 }
 
 /* Larger than mobile */
