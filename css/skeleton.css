@@ -517,7 +517,7 @@ fieldset iframe {
   height:20rem;
 }
 .slick-prev, .slick-next {
-  background-color:#616365!important;
+  background-color:#803092!important;
   border-radius:10px;
 }
 .centre {
@@ -641,16 +641,16 @@ footer>div {
     margin:0;
   }
   #markel {
-    background-size:20%;
-    height:30rem;
+    background-size:15%;
+    height:20rem;
   }
   #lhs {
-    background-size:40%;
-    height:30rem;
+    background-size:60%;
+    height:20rem;
   }
   #abbey {
     background-size:40%;
-    height:30rem;
+    height:20rem;
   }
   fieldset {
     clear:none;
