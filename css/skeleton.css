@@ -520,7 +520,8 @@ fieldset iframe {
   height:20rem;
 }
 .slick-prev, .slick-next {
-  background-color:#009aa6!important;
+  background-color:#616365!important;
+  border-radius:10px;
 }
 .centre {
   padding:2rem 0 0;
