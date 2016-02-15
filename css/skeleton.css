@@ -500,12 +500,16 @@ fieldset iframe {
   background-size:40%;
   height:20rem;
 }
-/* IE hack to get markel logo fitting properly. */
+/* IE8-10 hack to get markel logo fitting properly. */
 @media screen\0 {
-  #markel {
-    background-size:60%;
-  }
+  #markel { background-size:60%; }
 }
+/* IE11 hack */
+@media all and (-ms-high-contrast:none)
+{
+  *::-ms-backdrop, #markel { background-size:60%; }
+}
+
 iframe {
   border:0 none;
 }
