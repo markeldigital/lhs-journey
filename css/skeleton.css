@@ -500,6 +500,9 @@ fieldset iframe {
   background-size:40%;
   height:20rem;
 }
+iframe {
+  border:0 none;
+}
 #lhs {
   background-color:#803092;
   background-image:url(../images/lewis_hymanson_small.svg);
